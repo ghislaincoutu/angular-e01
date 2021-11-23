@@ -1,0 +1,92 @@
+/* You can add global styles to this file, and also import other style files */
+@import "styles/grid.scss";
+@import "styles/effects.scss";
+
+* {
+  box-sizing: border-box;
+}
+html {
+  min-height: 100%;
+}
+body {
+  margin: 0 0 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-image: linear-gradient(#ddd, #999);
+}
+button {
+  padding: 2px 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+header .themetitle {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 3rem;
+}
+header .subtitle {
+  margin: -10px 0 0 0;
+  padding: 0;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+}
+main h1 {
+  margin: 0 0 12px 0;
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 100%;
+}
+main h2 {
+  margin: 20px 0 12px 0;
+  font-size: 1.6rem;
+}
+main h2:first-child {
+  margin-top: 0;
+}
+main p {
+  margin: 0 0 12px 0;
+  line-height: 1.2rem;
+}
+footer p {
+  margin: 0;
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 5px;
+  max-width: 1200px;
+  min-width: 280px;
+}
+.container.firstrow {
+  padding-top: 20px;
+  min-height: 500px;
+}
+.container figure {
+  margin: 0;
+  padding: 0;
+}
+.container figure img {
+  width: 100%;
+  height: auto;
+}
+.container figure figcaption {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+.color01 {
+  color: #ddd;
+  background-color: #000;
+}
+.color02 {
+  background-color: #fff;
+}
+/* Mise en page pour les ordinateurs de bureau. */
+@media only screen and (min-width: 768px) {
+  header .subtitle {
+    margin: 5px 0 0 0;
+    text-align: right;
+  }
+}

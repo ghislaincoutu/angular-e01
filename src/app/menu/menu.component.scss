@@ -1,0 +1,61 @@
+nav {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 280px;
+}
+nav .menu01 {
+  margin: 0;
+  padding: 0;
+  border-top: 6px solid #000000;
+  background-color: #9f0000;
+  list-style-type: none;
+  overflow: hidden;
+}
+nav .menu01 li {
+  display: none;
+}
+nav .menu01 li:first-child {
+  display: block;
+}
+nav .menu01 a {
+  padding: 14px 15px;
+  display: block;
+  color: #f2f2f2;
+  text-align: left;
+  text-decoration: none;
+}
+nav .menu01 a:hover {
+  background-color: #000000;
+  color: fff;
+}
+nav .active {
+  color: #ffffff;
+  background-color: #d84315;
+}
+nav .openmenu01 li {
+  display: block;
+}
+nav a.icon {
+  padding: 14px 16px;
+  display: block;
+  position: absolute;
+  top: 6px;
+  right: 0;
+  color: #f2f2f2;
+  background-color: #000000;
+  text-decoration: none;
+}
+/* Mise en page pour les ordinateurs de bureau. */
+@media only screen and (min-width: 600px) {
+  nav .menu01 li {
+    display: block;
+  }
+  nav .menu01 a {
+    float: left;
+    display: block;
+  }
+  nav a.icon {
+    display: none;
+  }
+}

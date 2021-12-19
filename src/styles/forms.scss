@@ -1,0 +1,20 @@
+input, textarea, select, button {
+  -webkit-appearance: none;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+button {
+  background-color: #eee;
+}
+button:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+button:disabled {
+  color: #ccc;
+  background-color: #eee;
+  cursor: auto;
+}

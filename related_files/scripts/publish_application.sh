@@ -2,7 +2,7 @@
 function apply_pause() {
   read -p "$*"
 }
-echo "Publication de l'applications sur le serveur Web local."
+echo "Publication de l'applications sur le serveur Web local"
 apply_pause "Appuyer sur la touche [Retour] pour continuer..."
 
 # Source (so)

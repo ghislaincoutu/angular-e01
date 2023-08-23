@@ -1,5 +1,5 @@
 # angular-e01 &mdash; Programmation d'un site Web avec Angular
-[README](../README.md)
+> [README](../README.md)
 
 ## Démonstration
 https://ghislaincoutu.ca/r002/angular-e01

@@ -1,4 +1,4 @@
-# angular-e01 &mdash; Programmation d'un site Web avec Angular
+# angular-e01 &mdash; Programmation d'un document Web avec Angular
 [README](../README.md) &mdash; Angular
 
 ## Démonstration

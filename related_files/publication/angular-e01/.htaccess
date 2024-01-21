@@ -4,5 +4,5 @@
     RewriteCond %{REQUEST_FILENAME} -l [OR]
     RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^.*$ - [NC,L]
-    RewriteRule ^(.*) /r002/angular-e01/index.html [NC,L]
+    RewriteRule ^(.*) /d002/angular-e01/index.html [NC,L]
 </IfModule>

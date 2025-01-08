@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
-@import "styles/grid.scss";
-@import "styles/forms.scss";
-@import "styles/effects.scss";
+@use "styles/grid.scss";
+@use "styles/forms.scss";
+@use "styles/effects.scss";
 
 * {
   box-sizing: border-box;
